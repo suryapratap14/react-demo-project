@@ -1,0 +1,168 @@
+.loginwrapper{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.loginsection{
+  width: 40%;
+  min-height: 40vh;
+  border-radius: 2px;
+  border: 1px solid #333333;
+  /* background-color: #ffffff; */
+  background-image: url(./assets/login-bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.inputfields{
+  width: 80%;
+  height: 30px;
+  outline: none;
+  border: 1px solid #cdcdcd;
+  background-color: #f7f7f7;
+  align-items: center;
+  color: black;
+  padding-left: 10px;
+  padding-right: 4px;
+
+}
+
+.loginbtn{
+  width: 83%;
+  height: 34px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  align-items: center;
+  background-color: #13a4cc;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+
+.productContainer {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  row-gap: 100px;
+  justify-content: space-evenly;
+  /* text-align: center; */
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.productCart {
+  width: 340px;
+  height: 280px;
+  background-color: #cde4e3;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.buynow {
+  background-color: #ffffff;
+  width: auto;
+  height: auto;
+  padding: 6px;
+  color: #13a4cc;
+  outline: none;
+  text-align: center;
+  border: 1px solid #13a4cc;
+  border-radius: 6px;
+  margin-left: 20px;
+  font-size: 14px;
+
+}
+
+.buynow:hover{
+  background-color: #97d0df;
+  color: #ffffff;
+}
+
+.viewmore{
+  text-decoration: none;
+  font-size: 14px;
+  color: #13a4cc;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.viewmore:hover{
+  opacity: .8;
+}
+
+.imgwrapper{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #cdcdcd;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #13a4cc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.navbar a:hover{
+  color: #4c4545;
+  text-decoration: underline;
+}
+
+/* .card {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #756d6d;
+  border: 1px solid #cdcdcd;
+  text-align: center;
+  transition: .5s;
+}
+.card:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 30px;
+
+} */
